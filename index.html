@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <title>Document</title>
+    <title>Nícolas S.F</title>
 </head>
 <body>
       <!-- Menu --> 
@@ -16,18 +16,18 @@
                 <p>Nicolas S.F</p>
             </a>
         </div>
-        <ul class="nav-links">
-            <li id="link1" class="link"><a href="#">Sobre</a></li>
-            <li id="link2" class="link"><a href="#">Experiências</a></li>
-            <li id="link3" class="link"><a href="#">Conhecimentos</a></li>
-            <li id="link4" class="link"><a href="#">Projetos</a></li>
-        </ul>
-
+            <ul class="nav-links">
+                <li id="link1" class="link"><a href="#sobre">Sobre</a></li>
+                <li id="link2" class="link"><a href="#conhecimentos">Conhecimentos</a></li>
+                <li id="link3" class="link"><a href="#projetos">Projetos</a></li>
+                <li id="link4" class="link"><a href="#experiencias">Experiências</a></li>
+                <li id="link5" class="link"><a href="#contatos">Contato</a></li>
+            </ul>
     </nav>
     <!-- Fim menu -->
 
 
-    <section class="sobre">
+    <section class="sobre" id="sobre">
         <div class="sobre-mim" >
             <div class="info">
                 <h1>Nícolas Fernandes</h1>
@@ -62,7 +62,7 @@
         </div>
     </section>
 
-    <section class="container-skills">
+    <section class="container-skills" id="conhecimentos">
         <div class="left">
             <h2>Minhas habilitades técnicas</h2>
             <p>Desenvolvo soluções web focadas em gestão eficiente, combinando interfaces intuitivas, responsivas e fáceis de usar com tecnologias modernas.</p>
@@ -109,10 +109,16 @@
     </section>
 
 
-    <section class="projetos">
+    <section class="projetos" id="projetos">
         <div class="web-portfolio">
-            <div class="title">
-                <h2>Portfolio Websites</h2>
+            <div class="container-title-web">
+                <div class="title">
+                    <i class="ri-macbook-line"></i>
+                    <h4>Portfolio Websites</h4>
+                </div>
+                <div class="text-title">
+                    <p>Projetar e desenvolver sites atraentes e totalmente responsivos que destaque seu trabalho, garantindo uma presença profissional.</p>
+                </div>
             </div>
             <div class="cards-web">
                 <div class="card">
@@ -162,8 +168,14 @@
             </div>
         </div>
         <div class="sistemas-portfolio">
-            <div class="title">
-                <h2>Portfolio sistemas Web</h2>
+            <div class="container-title-sistemas">
+                <div class="title">
+                    <i class="ri-dashboard-line"></i>
+                    <h4>Portfolio sistemas Web</h4>
+                </div>
+                <div class="text-title-sistemas">
+                    <p>Desenvolvimento completo de sistemas responsivos que ficam ótimos em todos os dispositivos, com foco em desempenho, economicidade e agilidade.</p>
+                </div>
             </div>
 
             <div class="cards-sistemas">
@@ -214,8 +226,10 @@
             </div>
         </div>
     </section>
-    
-    <section class="experiencia">
+    <div class="teste">
+
+    </div>
+    <section class="experiencia" id="experiencias">
         <div class="title-timeline">
             <h1>Experiência Profissional</h1>
             <p>Minha trajetória construindo sistemas backend.</p>
@@ -226,10 +240,10 @@
                 <h3>Desenvolvedor Backend e Frontend</h3>
                 <h4>Brasil Predial</h2>
                 <span>Junho/2023 - Janeiro/2024</span>
-                <p>Atuação no desenvolvimento e manutenção de sistemas web voltados a órgãos públicos.</p>
-                <a href="https://nicolasfernandes.dev.br/beststart/" target="_blank">
+                <p>Atuação no desenvolvimento e manutenção de sistemas web voltados para a gestão predial pública.</p>
+               
                     <button class="btn">Mais sobre</button>
-                </a>
+           
               </div>
             </div>
           
@@ -239,9 +253,9 @@
                 <h4>Mundimed</h2>
                 <span>Junho/2023 - Janeiro/2024</span>
                 <p>Desenvolvimento e manutenção de aplicações web para gestão de medicamentos</p>
-                <a href="https://nicolasfernandes.dev.br/beststart/" target="_blank">
+               
                     <button class="btn">Mais sobre</button>
-                </a>
+               
               </div>
             </div>
 
@@ -250,10 +264,15 @@
                     <h3>Desenvolvedor Fullstack</h3>
                     <h4>QFrotas</h2>
                     <span>Setembro/2024 - Presente</span>
-                    <p>Desenvolvimento de soluções web para gestão de frota estaduais e municipais</p>
-                    <a href="https://nicolasfernandes.dev.br/beststart/" target="_blank">
+                    <p> 
+                        - Gerenciamento de equipe
+                        <br>
+                          <br>
+                        - Desenvolvimento de sistemas para gestão de frota e licitações
+                         <br>
+                    </p>
+                
                         <button class="btn">Mais sobre</button>
-                    </a>
                 </div>
               </div>
 
@@ -263,7 +282,7 @@
           
     </section>
 
-    <section class="contatos">
+    <section class="contatos" id="contatos">
         <div class="title-contatos">
             <h1>Entre em contato</h1>
             <p>Interessado em trabalhar juntos? Vamos discutir seu projeto. </p>
@@ -336,9 +355,74 @@
         </div>
     </section>
 
-
     <section class="footer">
+        <div class="infofooter">
+            <div class="nomefooter">
+                <h4>Nicolas Fernandes</h4>
+                <p>FullStack Developer</p>
+            </div>
+            <div class="especfooter">
 
+            </div>
+        </div>
+        <div class="linksfooter">
+                <div class="linksf" >
+                    <div class="iconf">
+                        <a href="https://www.linkedin.com/in/nicolas-fernandes-200807250/" target="_blank">
+                            <i class="ri-linkedin-box-fill"></i>
+                        </a>
+                    </div>
+                    <div class="iconf">
+                        <a href="https://github.com/nicolasSafer" target="_blank">
+                            <i class="ri-github-fill"></i>
+                        </a>
+                    </div>
+                    <div class="iconf">
+                        <i class="ri-mail-line"></i>
+                    </div>
+                </div>
+
+        </div>
+        <div class="direitos-footer">
+            <p>© 2025 Nicolas S.F.</p>
+        </div>
     </section>
+
+<script src="script.js"></script>
+<script>
+        window.addEventListener("scroll", function () {
+            const nav = document.querySelector("nav");
+            nav.classList.toggle("scrolled", window.scrollY > 10);
+        });
+</script>
+<script>
+  const sections = document.querySelectorAll("section[id]");
+  const navLinks = document.querySelectorAll(".nav-links .link a");
+
+  window.addEventListener("scroll", () => {
+    let current = "";
+
+    sections.forEach(section => {
+      const sectionTop = section.offsetTop - 100;
+      const sectionHeight = section.offsetHeight;
+
+      if (scrollY >= sectionTop && scrollY < sectionTop + sectionHeight) {
+        current = section.getAttribute("id");
+      }
+    });
+
+    navLinks.forEach(link => {
+      link.classList.remove("active");
+      if (link.getAttribute("href") === `#${current}`) {
+        link.classList.add("active");
+      }
+    });
+  });
+</script>
+
+
+
+
+
 </body>
 </html>
