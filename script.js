@@ -20,7 +20,8 @@ link3.addEventListener('click', () => {
 })
 
 link4.addEventListener('click', () => {
-   scrollToElement('.teste');
+   // Navega até a seção de experiências
+   scrollToElement('#experiencias');
 })
 
 link5.addEventListener('click', () => {
